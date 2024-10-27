@@ -5,4 +5,6 @@ function claculateTriangleArea(){
     const height = parseFloat(triangleHeight.value);
     const triangleArea = 0.5* base * height ;
     console.log(triangleArea)
+    const triarea = document.getElementById('tri-area');
+    triarea.innerText = triangleArea;
 }

@@ -4,5 +4,7 @@ function claculateRectangleArea(){
     const width = parseFloat(rectWidth.value);
     const length = parseFloat(rectLength.value);
     const rectangleArea = width * length ;
-    console.log(rectangleArea)
+    console.log(rectangleArea);
+    const rectArea = document.getElementById('rect-area');
+    rectArea.innerText = rectangleArea;
 }
